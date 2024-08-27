@@ -1,0 +1,132 @@
+
+
+:root{
+    --color-primario: #F9DBBA; 
+    --color-secundario: #0A3871;
+    --color-terciario: #f5a588;
+    --fuente-inter: 'Inter' , sans-serif;
+    --fuente-montserrat: 'montserrat', sans-serif;
+    --fuente-krona: 'Krona One', sans-serif;
+
+}
+
+*{
+    background: var(--color-primario);
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+    
+.header{
+    font-size: 1rem;
+    color: var(--color-secundario);
+    font-family: var(--fuente-montserrat);
+
+}
+
+.Logo{
+    padding-top: 5px;
+    margin-left: 5px;
+    width: 5%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+
+.text-area {
+    display: flex;
+    border: none;
+    color: var(--color-secundario);
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: var(--color-secundario); }
+    .tex-area:focus {
+        outline: none;
+    }
+
+
+.mensaje{
+    background: var(--color-terciario);
+    background-image: url("/imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: var(--color-secundario);
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    height: 640px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+
+.btn-desencriptar {
+    background-color: white;
+    border: 1px solid var(--color-secundario);
+    border-radius: 24px;
+    color: var(--color-secundario);
+    font-size: 1rem;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+
+.btn-encriptar {
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-secundario);
+    border-radius: 24px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    background-color: white;
+    border: 1px solid var(--color-secundario);
+    border-radius: 24px;
+    color: #6495c6;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 740px;
+    position: absolute;
+    width: 336px;
+}
+
+
+.informacion {
+    color: #495057;
+    font-size: 18px;
+}
+
+
+@media (max-width: 1200px) {
+
+    .presentacion{
+        flex-direction: column;
+    }
+
+}
