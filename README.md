@@ -42,7 +42,7 @@ Si tienes alguna pregunta o comentario sobre el proyecto, no dudes en contactarm
 
 ---
 
-¡Gracias por visitar el proyecto de encriptador de texto!
-
 ## **Opinion personal**:
 Este proyecto fue un poco desafiante porque marca mi inicio en el mundo de la programacion pero me esforce por cumplir con las expectativas que habian. Espero mejorar cada dia y seguir avanzando de la mano con Alura. 
+
+¡Gracias por visitar el proyecto de encriptador de texto!
